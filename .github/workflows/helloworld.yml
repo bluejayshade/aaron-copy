@@ -1,10 +1,4 @@
 name: helloworld
 on: push
 
-jobs:
-  helloworldjob:
-    runs-on:ubuntu-latest
-    steps:
-      - name:checkoput repository code
-        uses:actions/checkout@v4
-      - run: echo "$(cat hello_world.txt")
+
