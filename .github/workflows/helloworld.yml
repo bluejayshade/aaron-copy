@@ -3,4 +3,6 @@ on: push
 jobs:
   echo:
     runs-on: ubuntu-latest
-
+    steps:
+      - name: Echoing hello
+        run: echo "Hello,World"
