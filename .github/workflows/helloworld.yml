@@ -1,5 +1,6 @@
-name:helloworld
-on:push
+name: helloworld
+on: push
+
 jobs:
   helloworldjob:
     runs-on:ubuntu-latest
